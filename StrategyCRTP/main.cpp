@@ -3,6 +3,7 @@
 #include "NormalDuck.cpp"
 #include "NormalFly.hpp"
 #include <iostream>
+#include <vld.h>
 
 int main() {
   Duck<NormalFly> duck;
