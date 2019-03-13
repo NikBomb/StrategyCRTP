@@ -4,7 +4,7 @@
 #include <memory>
 
 template <typename F> class Duck {
-  std::shared_ptr<FlyBehaviour<F>> flyBehaviour = std::make_shared<F>();
+  std::unique_ptr<FlyBehaviour<F>> flyBehaviour = std::make_unique<F>();
 
 public:
   void fly() { flyBehaviour->fly(); };

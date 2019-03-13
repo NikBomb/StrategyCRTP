@@ -10,4 +10,6 @@ template <typename T> class FlyBehaviour : crtp<T> {
 
 public:
   void fly() { std::cout << this->underlying().message << std::endl;  }
+
+  virtual ~FlyBehaviour(){}
 };
