@@ -1,6 +1,6 @@
 #include "FlyBehaviour.hpp"
 #include "JetFly.hpp"
-#include "NormalDuck.cpp"
+#include "NormalDuck.hpp"
 #include "NormalFly.hpp"
 #include <iostream>
 #include <vld.h>
